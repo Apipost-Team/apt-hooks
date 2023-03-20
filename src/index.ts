@@ -3,7 +3,7 @@ import useSafeState from './useSafeState'
 import useUnmountedRef from './useUnmountedRef'
 
 
-export default {
+export {
   useMemoizedFn,
   useSafeState,
   useUnmountedRef

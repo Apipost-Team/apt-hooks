@@ -1,10 +1,10 @@
 {
   "name": "apt-hooks",
   "description": "一个适用于react16.8以上版本的公共hooks库",
-  "version": "1.0.0",
-  "main": "src/index.ts",
+  "version": "1.0.1",
+  "main": "libs/index.js",
   "scripts": {
-    "test": "npm run test"
+    "build": "rollup -c rollup.config.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,16 @@
   },
   "homepage": "https://github.com/Apipost-Team/apt-hooks#readme",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "lodash": "^4.17.21",
     "react": "^18.2.0",
-    "lodash": "^4.17.21"
+    "rollup": "^2.56.2",
+    "rollup-plugin-dts": "^3.0.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.5.0"
   }
 }

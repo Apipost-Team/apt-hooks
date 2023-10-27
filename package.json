@@ -1,7 +1,7 @@
 {
   "name": "apt-hooks",
   "description": "一个适用于react16.8以上版本的公共hooks库",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "libs/index.js",
   "scripts": {
     "build": "rollup -c rollup.config.js"
